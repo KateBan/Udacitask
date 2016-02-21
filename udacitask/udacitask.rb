@@ -9,7 +9,7 @@ $report_file = File.new("report.txt", "w+")
 
 
 # Creates a new todo list
-list = TodoList.new("Things to do everyday")
+list = TodoList.new("Things to do today")
 
 
 # Add four new items
@@ -44,3 +44,22 @@ list.update_title_list("My Udacious List")
 
 # Print the list
 list.print_list
+
+katerina = User.new("Katerina")
+my_list = katerina.add_list("Katerina's list")
+my_list.add_item("Take DA ND")
+my_list.add_item("Take Ruby ND")
+my_list.add_item("Take the FE ND")
+my_list.add_item("Take the FS ND")
+my_list.add_item("Take RoR ND")
+my_list.add_item("Take SRoR ND")
+my_list.print_list
+my_list.change_status(0)
+my_list.print_list
+
+jaklin = User.new("Jaklin")
+her_list = jaklin.add_list("Jaklin's list")
+her_list.add_item("Leanr linear algebra")
+her_list.add_item("Learn calculus")
+her_list.add_item("Learn probability theory")
+her_list.print_list

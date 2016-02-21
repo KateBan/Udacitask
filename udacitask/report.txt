@@ -1,23 +1,23 @@
 
-Things to do everyday                                   Status
+Things to do today                                      Status
 ###########################################################################
 1 - Yoga                                                Completed?: Not yet
 2 - Coffee and breakfast                                Completed?: Not yet
 3 - Work through the book'AWP Practical OOD in Ruby'    Completed?: Not yet
 4 - Work on Udacitask                                   Completed?: Not yet
 
-Things to do everyday                                   Status
+Things to do today                                      Status
 ###########################################################################
 1 - Coffee and breakfast                                Completed?: Not yet
 2 - Work through the book'AWP Practical OOD in Ruby'    Completed?: Not yet
 3 - Work on Udacitask                                   Completed?: Not yet
 
-Things to do everyday                                   Status
+Things to do today                                      Status
 ###########################################################################
 1 - Work through the book'AWP Practical OOD in Ruby'    Completed?: Not yet
 2 - Work on Udacitask                                   Completed?: Not yet
 
-Things to do everyday                                   Status
+Things to do today                                      Status
 ###########################################################################
 1 - Work through the book'AWP Practical OOD in Ruby'    Completed?: Done
 2 - Work on Udacitask                                   Completed?: Not yet
@@ -26,3 +26,27 @@ My Udacious List                                        Status
 ###########################################################################
 1 - Work through the book'AWP Practical OOD in Ruby'    Completed?: Done
 2 - Work on Udacitask                                   Completed?: Not yet
+
+Katerina's list                                         Status
+###########################################################################
+1 - Take DA ND                                          Completed?: Not yet
+2 - Take Ruby ND                                        Completed?: Not yet
+3 - Take the FE ND                                      Completed?: Not yet
+4 - Take the FS ND                                      Completed?: Not yet
+5 - Take RoR ND                                         Completed?: Not yet
+6 - Take SRoR ND                                        Completed?: Not yet
+
+Katerina's list                                         Status
+###########################################################################
+1 - Take DA ND                                          Completed?: Done
+2 - Take Ruby ND                                        Completed?: Not yet
+3 - Take the FE ND                                      Completed?: Not yet
+4 - Take the FS ND                                      Completed?: Not yet
+5 - Take RoR ND                                         Completed?: Not yet
+6 - Take SRoR ND                                        Completed?: Not yet
+
+Jaklin's list                                           Status
+###########################################################################
+1 - Leanr linear algebra                                Completed?: Not yet
+2 - Learn calculus                                      Completed?: Not yet
+3 - Learn probability theory                            Completed?: Not yet

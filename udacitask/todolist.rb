@@ -1,3 +1,16 @@
+#Adding class User
+class User
+    attr_accessor :name
+    def initialize(user_name)
+        @name = user_name
+    end
+
+    def add_list(new_list)
+        new_list = TodoList.new(new_list)
+    end
+
+end
+
 class TodoList
 	attr_accessor :title, :items
      # Initialize todo list with a title and no items
