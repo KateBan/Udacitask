@@ -1,0 +1,10 @@
+1 - Yoga Completed: false
+2 - Coffee and breakfast Completed: false
+3 - Work through the book 'AWP Practical Object oriented Design in Ruby' Completed: false
+4 - Work on Udacitask Completed: false
+
+
+1 - Coffee and breakfast Completed: false
+2 - Work through the book 'AWP Practical Object oriented Design in Ruby' Completed: false
+3 - Work on Udacitask Completed: false
+
