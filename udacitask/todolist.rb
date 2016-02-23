@@ -3,6 +3,7 @@ class User
     attr_accessor :name
     def initialize(user_name)
         @name = user_name
+        $user_name = File.new("#{user_name}.txt", "w+")
     end
 
     def add_list(new_list)
@@ -36,19 +37,19 @@ class TodoList
      def change_status(index)
         @items[index].completed_status = "Done"
      end
-     
 
-     def print_list
-        $report_file.write("\n")
-        $report_file.write("#{title}".ljust(56) + "Status")
-        $report_file.write("\n")
-        $report_file.write('#' * 75)
-        $report_file.write("\n")
+
+     def print_file(user_name)    
+        $user_name.write("\n")
+        $user_name.write("#{title}".ljust(56) + "Status")
+        $user_name.write("\n")
+        $user_name.write('#' * 75)
+        $user_name.write("\n")
         @items.each_with_index {|item,index| 
-            $report_file.write("#{index + 1} - #{@items[index].description}".ljust(55) + " " + "Completed?: #{@items[index].completed_status}\n")}
-     end
-    
-    
+             $user_name.write("#{index + 1} - #{@items[index].description}".ljust(55) + " " + "Completed?: #{@items[index].completed_status}\n")}     
+    end
+
+
 end
 
 class Item
