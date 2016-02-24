@@ -1,28 +1,28 @@
 
-Jaklin's list                                           Status
-###########################################################################
-1 - Yoga                                                Completed: Not yet
-2 - Coffee and breakfast                                Completed: Not yet
-3 - Work through the book'AWP Practical OOD in Ruby'    Completed: Not yet
-4 - Work on Udacitask                                   Completed: Not yet
+Jaklin's list                                            Status
+***************************************************************************
+1 - Yoga                                                 Completed: Not yet
+2 - Coffee and breakfast                                 Completed: Not yet
+3 - Work through the book'AWP Practical OOD in Ruby'     Completed: Not yet
+4 - Work on Udacitask                                    Completed: Not yet
 
-Jaklin's list                                           Status
-###########################################################################
-1 - Coffee and breakfast                                Completed: Not yet
-2 - Work through the book'AWP Practical OOD in Ruby'    Completed: Not yet
-3 - Work on Udacitask                                   Completed: Not yet
+Jaklin's list                                            Status
+***************************************************************************
+1 - Coffee and breakfast                                 Completed: Not yet
+2 - Work through the book'AWP Practical OOD in Ruby'     Completed: Not yet
+3 - Work on Udacitask                                    Completed: Not yet
 
-Jaklin's list                                           Status
-###########################################################################
-1 - Work through the book'AWP Practical OOD in Ruby'    Completed: Not yet
-2 - Work on Udacitask                                   Completed: Not yet
+Jaklin's list                                            Status
+***************************************************************************
+1 - Work through the book'AWP Practical OOD in Ruby'     Completed: Not yet
+2 - Work on Udacitask                                    Completed: Not yet
 
-Jaklin's list                                           Status
-###########################################################################
-1 - Work through the book'AWP Practical OOD in Ruby'    Completed: Done
-2 - Work on Udacitask                                   Completed: Not yet
+Jaklin's list                                            Status
+***************************************************************************
+1 - Work through the book'AWP Practical OOD in Ruby'     Completed: Done
+2 - Work on Udacitask                                    Completed: Not yet
 
-My Udacious List                                        Status
-###########################################################################
-1 - Work through the book'AWP Practical OOD in Ruby'    Completed: Done
-2 - Work on Udacitask                                   Completed: Not yet
+My Udacious List                                         Status
+***************************************************************************
+1 - Work through the book'AWP Practical OOD in Ruby'     Completed: Done
+2 - Work on Udacitask                                    Completed: Not yet

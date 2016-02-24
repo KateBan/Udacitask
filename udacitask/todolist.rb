@@ -7,8 +7,6 @@ class User
         $user_name = File.new("#{user_name}_#{@@user_id}.txt", "w+")
         @@user_id += 1
         @user_id = @@user_id
-     
-    
     end
 
     def add_list(new_list, user_id)
@@ -47,17 +45,13 @@ class TodoList
         @items[index].completed_status = "Done"
      end
 
-
      def print_file(user_name)    
-        $user_name.write("\n")
-        $user_name.write("#{title}".ljust(56) + "Status")
-        $user_name.write("\n")
-        $user_name.write('#' * 75)
+        $user_name.write("\n#{title}".ljust(58) + "Status\n")
+        $user_name.write('*' * 75)
         $user_name.write("\n")
         @items.each_with_index {|item,index| 
-             $user_name.write("#{index + 1} - #{@items[index].description}".ljust(55) + " " + "Completed: #{@items[index].completed_status}\n")}     
+             $user_name.write("#{index + 1} - #{@items[index].description}".ljust(56) + " " + "Completed: #{@items[index].completed_status}\n")}     
     end
-
 end
 
 class Item
@@ -69,6 +63,9 @@ class Item
     	@description = item_description
     	@completed_status = "Not yet"
     end
-    
+
+    def completed?
+        @completed_status == "Done"
+    end 
 end
 
