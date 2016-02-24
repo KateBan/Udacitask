@@ -1,10 +1,10 @@
-#Adding class User
+#Add class User
 class User
-    @@user_id = 0
+    @@user_id = 1
     attr_accessor :name
     def initialize(user_name)
         @name = user_name
-        $user_name = File.new("#{user_name}.txt", "w+")
+        $user_name = File.new("#{user_name}_#{@@user_id}.txt", "w+")
         @@user_id += 1
     end
 
@@ -52,7 +52,7 @@ class TodoList
         $user_name.write('#' * 75)
         $user_name.write("\n")
         @items.each_with_index {|item,index| 
-             $user_name.write("#{index + 1} - #{@items[index].description}".ljust(55) + " " + "Completed?: #{@items[index].completed_status}\n")}     
+             $user_name.write("#{index + 1} - #{@items[index].description}".ljust(55) + " " + "Completed: #{@items[index].completed_status}\n")}     
     end
 
 
