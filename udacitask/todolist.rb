@@ -1,23 +1,29 @@
 #Adding class User
 class User
+    @@user_id = 0
     attr_accessor :name
     def initialize(user_name)
         @name = user_name
         $user_name = File.new("#{user_name}.txt", "w+")
+        @@user_id += 1
     end
 
-    def add_list(new_list)
-        new_list = TodoList.new(new_list)
+    def add_list(new_list, user_id)
+        new_list = TodoList.new(new_list, @@user_id)
     end
 
+    def self.user_id
+        return @@user_id
+    end
 end
 
 class TodoList
-	attr_accessor :title, :items
+	attr_accessor :title, :items, :user_id
      # Initialize todo list with a title and no items
-     def initialize(list_title)
+     def initialize(list_title, user_id)
         @title = list_title
         @items = Array.new # Starts empty! No Items yet!
+        @user_id = user_id
      end
      
      def update_title_list(list_title)
