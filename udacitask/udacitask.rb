@@ -2,7 +2,7 @@ require_relative 'todolist.rb'
 
 # Creates a new todo list
 jaklin = User.new("Jaklin")
-list = jaklin.add_list("Jaklin's list", User.user_id)
+list = jaklin.add_list("Jaklin's list", jaklin.user_id)
 
 # Add four new items
 list.add_item("Yoga")
@@ -43,8 +43,9 @@ list.print_file(jaklin)
 #Second features allows the users store their lists in a separate file
 #Third feature allows the users to have uniq id which prevents from duplication in users namesand lists
 
+#Add a second user and his list
 katerina = User.new("Katerina")
-my_list = katerina.add_list("Katerina's list", User.user_id)
+my_list = katerina.add_list("Katerina's list", katerina.user_id)
 my_list.add_item("Take DA ND")
 my_list.add_item("Take Ruby ND")
 my_list.add_item("Take the FE ND")
@@ -55,8 +56,17 @@ my_list.print_file(katerina)
 my_list.change_status(0)
 my_list.print_file(katerina)
 
+
+#Add a second list by the same user in the same file
+another_list = katerina.add_list("Katerina's New List", katerina.user_id)
+another_list.add_item("Practise Ruby")
+another_list.add_item("Look for a job")
+another_list.change_status(0)
+another_list.print_file(katerina)
+
+#Add third user
 katerina = User.new("Katerina")
-my_list = katerina.add_list("Katerina's list", User.user_id)
+my_list = katerina.add_list("Katerina's List", katerina.user_id)
 my_list.add_item("Cook dinner")
 my_list.add_item("Play with the cat")
 my_list.print_file(katerina)

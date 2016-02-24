@@ -16,3 +16,8 @@ Katerina's list                                         Status
 4 - Take the FS ND                                      Completed: Not yet
 5 - Take RoR ND                                         Completed: Not yet
 6 - Take SRoR ND                                        Completed: Not yet
+
+Katerina's New List                                     Status
+###########################################################################
+1 - Practise Ruby                                       Completed: Done
+2 - Look for a job                                      Completed: Not yet
