@@ -1,0 +1,59 @@
+commit ad99bcc621da8b103a329955d32f46f12f6eb71a
+Author: Katerina <kbaneva@gmail.com>
+Date:   Thu Feb 25 00:07:14 2016 +0200
+
+    Ready
+
+commit c7e2273e51f1d4b664e2d13802edeebecf2a37a4
+Author: Katerina <kbaneva@gmail.com>
+Date:   Wed Feb 24 22:26:16 2016 +0200
+
+    Changed the initialization methodfor class User
+
+commit 6dbc37291554911301097f289468c1cae17d76d3
+Author: Katerina <kbaneva@gmail.com>
+Date:   Wed Feb 24 14:52:49 2016 +0200
+
+    Uniq Id for every user works great
+
+commit 44b70535af2d076cbce69e402177402fdbd6e741
+Author: Katerina <kbaneva@gmail.com>
+Date:   Wed Feb 24 14:05:35 2016 +0200
+
+    Added class variable user_id
+
+commit d0cf11d7aac2c615a6df55c2a295219ceadccaa8
+Author: Katerina <kbaneva@gmail.com>
+Date:   Wed Feb 24 00:10:42 2016 +0200
+
+    Added feature that allows for every new user to store their own file in a separate list
+
+commit 264d2265f911549606d3482eb72ac7056ca7ed49
+Author: Katerina <kbaneva@gmail.com>
+Date:   Wed Feb 24 00:09:46 2016 +0200
+
+    Added feature that allows for every new user to store their own file in a separate list
+
+commit ab03a4eb9d0f56a523661f0d6079c9a7f880ba2f
+Author: Katerina <kbaneva@gmail.com>
+Date:   Sun Feb 21 17:49:58 2016 +0200
+
+    Added class User
+
+commit 088b618d27cd7bad7992b9a0bcdf3d539ff2af9e
+Author: Katerina <kbaneva@gmail.com>
+Date:   Sun Feb 21 15:04:54 2016 +0200
+
+    Added function fo updating the sttus of completion, function for changing the name of the list.
+
+commit f675f37425a9f0b076e5020cda970d6c5ef128d5
+Author: Katerina <kbaneva@gmail.com>
+Date:   Sun Feb 21 13:31:56 2016 +0200
+
+    Added four items, added printing function and function to remove items form the list.
+
+commit e928ba5a8a3bf620746d303173532bd1346c6a47
+Author: Katerina <kbaneva@gmail.com>
+Date:   Thu Feb 18 21:04:20 2016 +0200
+
+    initial commit
