@@ -1,3 +1,9 @@
+commit f887553bc6bbbf8ad0d90df5eee60875b2dc1aa7
+Author: Katerina <kbaneva@gmail.com>
+Date:   Sat Feb 27 13:20:15 2016 +0200
+
+    Removed global variable for writing a file
+
 commit ad99bcc621da8b103a329955d32f46f12f6eb71a
 Author: Katerina <kbaneva@gmail.com>
 Date:   Thu Feb 25 00:07:14 2016 +0200

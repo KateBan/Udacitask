@@ -2,7 +2,7 @@
 class User
 
     @@user_id = 0
-
+   
     attr_reader :user_id, :user_file
     attr_accessor :name
  
@@ -11,6 +11,7 @@ class User
         @@user_id += 1
         @user_id = @@user_id
         @user_file = File.new("#{name}_#{user_id}.txt", "w+")
+    
     end
 
     def add_list(new_list, user_id)
@@ -20,6 +21,7 @@ class User
     def self.user_id
         @@user_id 
     end
+
 end
 
 class TodoList
@@ -33,7 +35,8 @@ class TodoList
         @items = Array.new # Starts empty! No Items yet!
         @user_id = user_id
      end
-     
+
+
      def update_title_list(list_title)
         @title = list_title
      end
